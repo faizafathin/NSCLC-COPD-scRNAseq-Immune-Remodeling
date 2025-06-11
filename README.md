@@ -67,8 +67,11 @@ This study uses **single-cell RNA sequencing (scRNA-seq)** to analyze ~11,000 tu
 
 ## 📁 Repository Structure
 
-- `README.md` — 📘 Project summary & highlights (you are here)
+> 🔸 Files below are auto-sorted by GitHub (alphabetical order)
+
+- `README.md` — 📘 You are here (project summary & highlights)
 - `NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf` — 📄 Full MSc thesis manuscript
+
 
 
 > 📝 *PDF is shown first because it is the complete, official thesis document. The README is a summary for GitHub visitors.*
