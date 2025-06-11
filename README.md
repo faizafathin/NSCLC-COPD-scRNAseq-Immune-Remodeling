@@ -4,7 +4,6 @@ This repository contains the complete workflow, methods, and final thesis PDF fr
 
 **"Single-Cell Transcriptomic Profiling of NSCLC and COPD-Associated NSCLC Reveals Immune and Stromal Remodeling"**
 
-📄 [`NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf`](./NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf)
 
 ---
 
@@ -68,8 +67,8 @@ This study uses **single-cell RNA sequencing (scRNA-seq)** to analyze ~11,000 tu
 
 ## 📁 Repository Structure
 
-- `NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf` — 📄 Full MSc thesis manuscript
 - `README.md` — 📘 Project summary & highlights (you are here)
+- `NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf` — 📄 Full MSc thesis manuscript
 
 
 > 📝 *PDF is shown first because it is the complete, official thesis document. The README is a summary for GitHub visitors.*
