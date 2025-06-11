@@ -36,15 +36,15 @@ This study uses **single-cell RNA sequencing (scRNA-seq)** to analyze ~11,000 tu
 
 ---
 
-## 📚 Contents
+## 📂 Contents
 
-| Section | Description |
-|---------|-------------|
-| Introduction | Background on NSCLC, COPD, and immune-stromal interplay |
-| Methods | Detailed scRNA-seq workflow using Seurat |
-| Results | DEG analysis, pathway insights, visual plots |
-| Discussion | Interpretation, immunological impact of COPD in NSCLC |
-| Conclusion | Therapeutic implications and future directions |
+`/data/` — Raw and processed scRNA-seq count matrices  
+`/scripts/` — All R scripts used for Seurat workflow, clustering, DEG, and enrichment  
+`/enrichment/` — Pathway analysis outputs: GO/KEGG results, gene-pathway maps  
+`/figures/` — Final visualizations: UMAPs, heatmaps, dot plots, violin plots, volcano plots  
+README.md — You are here 📘  
+NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf — 📄 Full MSc thesis manuscript  
+
 
 ---
 
