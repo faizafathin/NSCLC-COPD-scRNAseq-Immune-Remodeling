@@ -17,13 +17,13 @@ This study uses **single-cell RNA sequencing (scRNA-seq)** to analyze ~11,000 tu
 
 ## 🔬 Key Methods
 
-| Technique | Tool Used |
-|-----------|-----------|
-| Data Acquisition | NCBI SRA (BioProject ID: PRJNA1186843) |
-| Single-cell Processing | `Seurat`, `NormalizeData`, `FindClusters`, `UMAP` |
-| DEG Analysis | `FindMarkers`, Wilcoxon test |
-| Pathway Enrichment | `clusterProfiler`, GO & KEGG |
-| Visualization | UMAP, violin plots, dot plots, volcano plots |
+- 🔹 **Data Acquisition**: Raw scRNA-seq data from NCBI SRA (BioProject ID: PRJNA1186843)
+- 🔹 **Preprocessing & Alignment**: Performed using **Cell Ranger** (10x Genomics)
+- 🔹 **Quality Control & Normalization**: Conducted in R using the **Seurat** package
+- 🔹 **Dimensionality Reduction & Clustering**: UMAP, PCA, FindClusters
+- 🔹 **Differential Expression Analysis**: FindMarkers function with Wilcoxon test
+- 🔹 **Pathway Enrichment**: **clusterProfiler** for GO and KEGG enrichment
+- 🔹 **Visualization**: UMAP plots, violin plots, volcano plots, dot plots, heatmaps
 
 ---
 
@@ -38,12 +38,12 @@ This study uses **single-cell RNA sequencing (scRNA-seq)** to analyze ~11,000 tu
 
 ## 📂 Contents
 
-`/data/` — Raw and processed scRNA-seq count matrices  
-`/scripts/` — All R scripts used for Seurat workflow, clustering, DEG, and enrichment  
-`/enrichment/` — Pathway analysis outputs: GO/KEGG results, gene-pathway maps  
-`/figures/` — Final visualizations: UMAPs, heatmaps, dot plots, violin plots, volcano plots  
-README.md — You are here 📘  
-NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf — 📄 Full MSc thesis manuscript  
+- `/data/` – Raw and processed scRNA-seq count matrices  
+- `/scripts/` – R scripts for Seurat workflow, clustering, DEG analysis  
+- `/enrichment/` – GO & KEGG enrichment results, gene-pathway mappings  
+- `/figures/` – UMAPs, heatmaps, dot plots, violin plots, volcano plots  
+- `README.md` – 📘 You are here  
+- `NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf` – 📄 Full MSc thesis manuscript  
 
 
 ---
@@ -68,10 +68,9 @@ NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf — 📄 Full MSc thesis manuscript
 
 ## 📁 Repository Structure
 
-| File | Description |
-|------|-------------|
-| `NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf` | 📄 Full thesis PDF |
-| `README.md` | 📘 Project summary & highlights (this file) |
+- `NSCLC_COPD_scRNAseq_Thesis_FaizaFathin.pdf` — 📄 Full MSc thesis manuscript
+- `README.md` — 📘 Project summary & highlights (you are here)
+
 
 > 📝 *PDF is shown first because it is the complete, official thesis document. The README is a summary for GitHub visitors.*
 
